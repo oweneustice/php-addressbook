@@ -5,7 +5,7 @@ You mentioned your last name was
 <br/><br/>
 <a href="test.php">Back</a>
 <?php
-$con=mysqli_connect("localhost","dev","@WSXcde3","people");
+$con=mysqli_connect("192.168.1.226","dev","@WSXcde3","people");
 // Check connection
 if (mysqli_connect_errno())
   {
